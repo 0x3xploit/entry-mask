@@ -32,5 +32,5 @@
 ## 🛠️ Usage
 
 ```bash
-./add_stub_dencrypt <input_binary> -o <output_binary> -k <xor_key>
+./entrymask <input_binary> -o <output_binary> -k <xor_key>
 
