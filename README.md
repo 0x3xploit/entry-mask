@@ -1,5 +1,8 @@
 # EntryMask
 
+![Screenshot 2025-06-26 014209](https://github.com/user-attachments/assets/d4d74af8-9ba0-4e86-bebf-1da90181c6e5)
+
+
 **EntryMask** is a lightweight 64-bit ELF packer that applies simple XOR-based encryption to the `.text` section of ELF binaries and prepends a small stub that decrypts and jumps to the original entry point.
 
 ---
@@ -33,4 +36,11 @@
 
 ```bash
 ./entrymask <input_binary> -o <output_binary> -k <xor_key>
+```
+
+
+
+
+![Screenshot 2025-06-26 014032](https://github.com/user-attachments/assets/bf58bf91-e5ee-4147-b621-b6a9a553daf7)
+
 
