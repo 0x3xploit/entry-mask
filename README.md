@@ -9,7 +9,7 @@
 
 ## 🔐 Features
 
-- Packs **64-bit ELF** binaries compiled with `gcc` or `g++`
+- Packs **64-bit ELF** binaries compiled with `gcc` or `g++` **non-PIE** ( **-no-pie** ) ELF binaries
 - XOR-based encoding of the `.text` section
 - Custom decryption stub executes before jumping to OEP
 - Automatically updates ELF entry point to stub
